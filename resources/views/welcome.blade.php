@@ -92,7 +92,7 @@
                     <a href="https://nova.laravel.com">Nova</a>
                     <a href="https://forge.laravel.com">Forge</a>
                     <a href="https://vapor.laravel.com">Vapor</a>
-                    <a href="https://github.com/laravel/laravel">facebook</a>
+                    <a href="https://github.com/laravel/laravel">Github</a>
                 </div>
             </div>
         </div>

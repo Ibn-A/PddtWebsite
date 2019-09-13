@@ -25,7 +25,7 @@
         <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm">
             <div class="container">
                 <a class="navbar-brand" href="{{ url('/') }}">
-                    <div><img src="/img/pddtLogo.png" style="height:70px ;" alt="Logo du Pddt"></div>
+                    <div><img src="/img/pddtLogo.png" style="height:42px ;" alt="Logo du Pddt"></div>
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
                     <span class="navbar-toggler-icon"></span>
@@ -34,16 +34,16 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     
                     <!-- Left Side Of Navbar -->
-                    <ul class="navbar-nav mr-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="">{{ __('Qui somme nous ?') }}</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="">{{ __('Nos projets') }}</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="">{{ __('Nos partenaires') }}</a>
-                    </li>
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="">{{ __('Qui sommes-nous ?') }}</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="">{{ __('Nos projets') }}</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="">{{ __('Nos partenaires') }}</a>
+                        </li>
 
                     </ul> 
 
@@ -59,8 +59,9 @@
                                     <a class="nav-link" href="{{ route('register') }}">{{ __("s'inscrire") }}</a>
                                 </li>
                                 <li class="nav-item">
-                                <button type="button" class="btn btn-success">Faire un Don</button>
+                                <button type="button" class="btn btn-success" href="">Faire un Don</button>
                                 </li>
+            
                             @endif
                         @else
                             <li class="nav-item dropdown">

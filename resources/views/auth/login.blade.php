@@ -53,13 +53,13 @@
 
                         <div class="form-group row mb-0">
                             <div class="col-md-8 offset-md-4">
-                                <button type="submit" class="btn btn-primary">
+                                <button type="submit" class="btn btn-success">
                                     {{ __('se connecter') }}
                                 </button>
 
                                 @if (Route::has('password.request'))
                                     <a class="btn btn-link" href="{{ route('password.request') }}">
-                                        {{ __('Avez-vous oubliez votre mot de passe ?') }}
+                                        <p style="color:#5cb85c;">{{ __('Avez-vous oubliez votre mot de passe ?') }}<p>
                                     </a>
                                 @endif
                             </div>

@@ -33,6 +33,9 @@
                     <li class="nav-item">
                         <a class="nav-link" href="">{{ __('i') }}</a>
                     </li>
+                    <li class="nav-item">
+                            <a class="nav-link" href="{{ route('login') }}">{{ __('ESPACE DONATEURS') }}</a>
+                    </li>
                 </ul> 
             </div>
         </nav>
@@ -62,18 +65,16 @@
                     </ul> 
 
                     <!-- Right Side Of Navbar -->
-                    <ul class="navbar-nav ml-auto">
+                    <ul class="navbar-nav ml-auto" >
                         <!-- Authentication Links -->
                         @guest
                             <li class="nav-item">
-                                <a class="nav-link" href="{{ route('login') }}">{{ __('se connecter') }}</a>
+                                <a class="nav-link btn btn-outline-success mr-2" href="{{ route('register') }}">{{ __('DEVENIR DONATEUR') }}</a>
                             </li>
                             @if (Route::has('register'))
+                                
                                 <li class="nav-item">
-                                    <a class="nav-link" href="{{ route('register') }}">{{ __("s'inscrire") }}</a>
-                                </li>
-                                <li class="nav-item">
-                                <button type="button" class="btn btn-success" href="">Faire un Don</button>
+                                <a style="font color:white;" class="nav-link btn btn-success mr-2" href="">{{ __('FAIRE UN DON') }}</a>
                                 </li>
             
                             @endif

@@ -25,13 +25,17 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="">{{ __('f') }}</a>
+                        <a class="nav-link" href="https://www.facebook.com" alt="facebook link" target="_blank">
+                        <img src="/img/facebook_circle.svg" width="20" height="16">
+                        </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="">{{ __('y') }}</a>
+                        <a class="nav-link" href="https://www.youtube.com" alt="youtube link" target="_blank">
+                            <img src="/img/youtube.svg" width="20" height="16">
+                        </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="">{{ __('i') }}</a>
+                        <a class="nav-link" href=""> </a>
                     </li>
                     <li class="nav-item">
                             <a class="nav-link" href="{{ route('login') }}">{{ __('ESPACE DONATEURS') }}</a>

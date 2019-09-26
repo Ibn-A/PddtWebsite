@@ -7,7 +7,7 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>{{ config('app.name', 'Pddt') }}</title>
+    <title>{{ config('app.name', 'Le Pddt') }}</title>
 
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}" defer></script>
@@ -25,12 +25,12 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="https://www.facebook.com" alt="facebook link" target="_blank">
+                        <a class="nav-link" href="https://www.facebook.com/PDDT-Partenariats-pour-le-D%C3%A9veloppement-Durable-au-Tchad-1729896993954990/?view_public_for=1729896993954990" alt="facebook link" target="_blank">
                         <img src="/img/facebook_circle.svg" width="20" height="16">
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="https://www.youtube.com" alt="youtube link" target="_blank">
+                        <a class="nav-link" href="https://www.youtube.com/channel/UC1dLyQ7z3Mx59M5ZK0WseMA" alt="youtube link" target="_blank">
                             <img src="/img/youtube.svg" width="20" height="16">
                         </a>
                     </li>

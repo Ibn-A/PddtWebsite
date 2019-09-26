@@ -35,10 +35,20 @@
                         </a>
                     </li>
                     <li class="nav-item">
+                        <a class="nav-link" href="" alt="twitter link" target="_blank">
+                            <img src="/img/twitter.svg" width="20" height="16">
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="" alt="instagram link" target="_blank">
+                            <img src="/img/instagram.svg" width="20" height="16">
+                        </a>
+                    </li>
+                    <li class="nav-item">
                         <a class="nav-link" href=""> </a>
                     </li>
                     <li class="nav-item">
-                            <a class="nav-link" href="{{ route('login') }}">{{ __('ESPACE DONATEURS') }}</a>
+                            <a class="nav-link" href="{{ route('login') }}">{{ __('ESPACE PARTENAIRES') }}</a>
                     </li>
                 </ul> 
             </div>
@@ -73,7 +83,7 @@
                         <!-- Authentication Links -->
                         @guest
                             <li class="nav-item">
-                                <a class="nav-link btn btn-outline-success mr-2" href="{{ route('register') }}">{{ __('DEVENIR DONATEUR') }}</a>
+                                <a class="nav-link btn btn-outline-success mr-2" href="{{ route('register') }}">{{ __('DEVENIR PARTENAIRE') }}</a>
                             </li>
                             @if (Route::has('register'))
                                 

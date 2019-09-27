@@ -49,7 +49,7 @@
             <div class="navbar-end">
               <div class="navbar-item">
                 <a class="navbar-item" href="#home">
-                  Home
+                  Accueil
                 </a>
               </div>
               <div class="navbar-item">
@@ -59,7 +59,7 @@
               </div>
               <div class="navbar-item">
                 <a class="navbar-item" href="#services">
-                  Work
+                  Gallery
                 </a>
               </div>
               <div class="navbar-item">
@@ -97,13 +97,13 @@
               <div class="column is-12 hero-menu-desktop has-text-centered">
                 <ul>
                   <li class="is-active">
-                    <a href="#home">Home</a>
+                    <a href="#home">Accueil</a>
                   </li>
                   <li>
                     <a href="#about-me">A propos du projet</a>
                   </li>
                   <li>
-                    <a href="#services">Work</a>
+                    <a href="#services">Gallery</a>
                   </li>
                   <li>
                     <a href="#skills">Lorem</a>
@@ -155,34 +155,7 @@
                 Communauté (ATPC) et l’hygiène dans les écoles, a sollicité tous ses partenaires, dont l’Association PDDT, pour la construction 
                 des latrines dans les écoles primaires et les marchés hebdomadaires.
               </p>
-              <br />
-              <div class="is-divider"></div>
-              <div class="columns about-links">
-                <div class="column">
-                  <p class="heading">
-                    <strong>Give me a ring</strong>
-                  </p>
-                  <p class="subheading">
-                    123-456-7890
-                  </p>
-                </div>
-                <div class="column">
-                  <p class="heading">
-                    <strong>Email Me</strong>
-                  </p>
-                  <p class="subheading">
-                    hello@example.com
-                  </p>
-                </div>
-                <div class="column">
-                  <p class="heading">
-                    <strong>View my portfolio</strong>
-                  </p>
-                  <p class="subheading">
-                    example.com
-                  </p>
-                </div>
-              </div>
+
             </div>
             <div class="column is-6 right-image " data-aos="fade-left">
               <img
@@ -205,7 +178,7 @@
             data-aos-easing="linear"
           >
             <div class="column is-12">
-              <h1 class="title has-text-centered section-title">Work</h1>
+              <h1 class="title has-text-centered section-title">Gallery</h1>
             </div>
             <div class="column is-3">
               <a href="#">
@@ -278,7 +251,7 @@
       
     <!-- Scripts -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="showcase.js"></script>
+    <script src="{{ asset('js/projet.js') }}"></script>
     <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
     <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
     <script>

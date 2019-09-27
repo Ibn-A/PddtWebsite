@@ -65,7 +65,7 @@
                             <a class="nav-link" href="">{{ __('Qui sommes-nous ?') }}</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="">{{ __('Nos projets') }}</a>
+                            <a class="nav-link" href="{{ url('/projets') }}">{{ __('Nos projets') }}</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="">{{ __('Nos partenaires') }}</a>

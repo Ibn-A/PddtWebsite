@@ -139,15 +139,13 @@
               data-aos="fade-right"
             >
               <p class="is-larger">
-                &emsp;&emsp;<strong
-                  >… à l’école primaire d’application de N’djamena</strong
-                >
+                &emsp;&emsp;<strong>… à l’école primaire d’application de N’djamena</strong>
               </p>
               <br />
               <p>
                 Au Tchad, le taux de couverture en services d’assainissement est extraordinairement bas. 
                 Cette situation explique en partie les taux élevés de morbidité et de mortalité infantile au Tchad.
-                <br><br>
+                <br /><br />
                 Pour faire face à ce problème de santé publique, le Tchad a adopté en 2013 une Stratégie Nationale d’Assainissement 
                 et cherche à mobiliser ses différents partenaires au développement, y compris les ONG nationales et internationales, 
                 afin d’obtenir des progrès en matière d’hygiène et d’Assainissement.
@@ -155,7 +153,6 @@
                 Communauté (ATPC) et l’hygiène dans les écoles, a sollicité tous ses partenaires, dont l’Association PDDT, pour la construction 
                 des latrines dans les écoles primaires et les marchés hebdomadaires.
               </p>
-
             </div>
             <div class="column is-6 right-image " data-aos="fade-left">
               <img
@@ -164,6 +161,25 @@
                 alt=""
               />
             </div>
+          </div>
+          <div>
+            <p>
+              L’Association PDDT s’est ainsi inscrite dans cette initiative locale et 2 de ses bénévoles ont visité, avec l’ONG tchadienne « Ecole saine, Ménage sain », 4 écoles primaires en déficit d’équipements sanitaires pour y rencontrer les associations des parents d’élèves et les responsables administratifs.
+              <br /><br />
+              L’école primaire d’Application de N’djamena accueillant 613 élèves dont 231 filles a retenu l’attention de PDDT, pour 3 raisons :
+              <br /><br />
+              l’existence d’une organisation impliquant les élèves et leurs parents dans l’entretien des équipements collectifs ;<br />
+              l’engagement écrit produit par l’école à assurer l’entretien de tout nouvel ouvrage offert ;<br />
+              l’école dispose d’un bloc de latrines à 4 cabines traditionnelles, bien vétustes, et d’un seul robinet d’eau.<br /><br />
+              Cette insuffisance de latrines pousse les élèves à déféquer à l’aire libre. Le problème d’hygiène est aggravé par le manque de point d’eau suffisant. Cette situation se traduit chez les élèves par des maladies diarrhéiques, de fièvre typhoïde etc.
+              <br /><br />
+              Par conséquent, grâce au soutien financier de l’Agence de l’Eau Rhin-Meuse, l’Association PDDT a construit 2 blocs de latrines à 3 cabines, installé 2 réservoirs d’eau (lave-mains) et réalisé un forage d’eau équipé d’une pompe à motricité humaine à l’école primaire d’Application.
+              <br /><br />
+              Le 11 mars 2016, une cérémonie de remise officielle de ces équipements sanitaires et hydraulique a été organisée dans l’enceinte de l’école. Plusieurs responsables de l’inspection académique de la Ville de N’djamena ont pris la parole pour saluer à l’unanimité la réalisation de ce projet et remercier chaleureusement l’Agence de l’Eau Rhin-Meuse et l’Association PDDT.
+              Les responsables académiques espèrent que ces nouveaux ouvrages permettent de réduire le risque de propagation des maladies diarrhéiques, la fièvre typhoïde, le choléra au sein de l’école; de réduire le taux d’absentéisme lié à ces maladie et le taux de mortalité plus généralement.
+              <br /><br />
+              Les médias locaux ont largement couverts cet événement, plus particulièrement la télévision et la radio nationales (ONRTV).
+            </p>
           </div>
         </div>
       </div>

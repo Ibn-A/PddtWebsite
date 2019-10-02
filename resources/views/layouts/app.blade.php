@@ -46,7 +46,7 @@
                 </ul> 
             </div>
         </nav>
-        <nav class="navbar navbar-expand-md navbar-light">
+        <nav class="navbar navbar-expand-md navbar-light shadow-sm">
             <div class="container">
                 <a class="navbar-brand" href="{{ url('/') }}">
                     <div><img src="/img/pddtLogo.png" style="height:42px ;" alt="Logo du Pddt"></div>

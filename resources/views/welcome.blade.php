@@ -67,7 +67,7 @@
         <iframe class="video" src="https://www.youtube.com/embed/F9Bo89m2f6g" allowfullscreen></iframe>
     </div>
 
-    <div class="bloc-3">
+    <div class="container bloc-3">
 
         <div class="box">
             <div class="imgBx">

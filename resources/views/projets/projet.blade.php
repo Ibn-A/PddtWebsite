@@ -1,11 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
+@extends('layouts.app')
 
-  <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>PDDT</title>
+@section('content')
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css"
@@ -18,9 +13,6 @@
       integrity="sha384-WAsFbnLEQcpCk8lM1UTWesAf5rGTCvb2Y+8LvyjAAcxK1c3s5c0L+SYOgxvc6PWG"
       crossorigin="anonymous"
     ></script>
-  </head>
-
-  <body>
 
     <!-- Begin Scroll Up Button -->
     <form action="#home">
@@ -34,53 +26,6 @@
     <div class="header-wrapper" id="home">
       <!-- Begin Hero -->
       <section class="hero is-large">
-        <!-- Begin Mobile Nav -->
-        <nav class="navbar is-transparent is-hidden-desktop">
-          <!-- Begin Burger Menu -->
-          <div class="navbar-brand">
-            <div class="navbar-burger burger" data-target="mobile-nav">
-              <span></span>
-              <span></span>
-              <span></span>
-            </div>
-          </div>
-          <!-- End Burger Menu -->
-          <div id="mobile-nav" class="navbar-menu">
-            <div class="navbar-end">
-              <div class="navbar-item">
-                <a class="navbar-item" href="#home">
-                  Accueil
-                </a>
-              </div>
-              <div class="navbar-item">
-                <a class="navbar-item" href="#about-me">
-                  A propos du projet
-                </a>
-              </div>
-              <div class="navbar-item">
-                <a class="navbar-item" href="#services">
-                  Gallery
-                </a>
-              </div>
-              <div class="navbar-item">
-                <a class="navbar-item" href="#skills">
-                  Lorem
-                </a>
-              </div>
-              <div class="navbar-item">
-                <a class="navbar-item" href="#my-work">
-                  Lorem
-                </a>
-              </div>
-              <div class="navbar-item">
-                <a class="navbar-item" href="#contact">
-                  Lorem
-                </a>
-              </div>
-            </div>
-          </div>
-        </nav>
-        <!-- End Mobile Nav -->
         <!-- Begin Hero Content-->
         <div class="hero-body">
           <div class="container has-text-centered">
@@ -90,36 +35,7 @@
           </div>
         </div>
         <!-- End Hero Content-->
-        <!-- Begin Hero Menu -->
-        <div class="hero-foot ">
-          <div class="hero-foot--wrapper">
-            <div class="columns">
-              <div class="column is-12 hero-menu-desktop has-text-centered">
-                <ul>
-                  <li class="is-active">
-                    <a href="#home">Accueil</a>
-                  </li>
-                  <li>
-                    <a href="#about-me">A propos du projet</a>
-                  </li>
-                  <li>
-                    <a href="#services">Gallery</a>
-                  </li>
-                  <li>
-                    <a href="#skills">Lorem</a>
-                  </li>
-                  <li>
-                    <a href="#my-work">Lorem</a>
-                  </li>
-                  <li>
-                    <a href="#contact">Lorem</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- End Hero Menu -->
+        
       </section>
       <!-- End Hero -->
     </div>
@@ -162,7 +78,9 @@
               />
             </div>
           </div>
-          <div>
+          <div class="columns is-multiline"
+            data-aos="fade-in"
+            data-aos-easing="linear">
             <p>
               L’Association PDDT s’est ainsi inscrite dans cette initiative locale et 2 de ses bénévoles ont visité, avec l’ONG tchadienne « Ecole saine, Ménage sain », 4 écoles primaires en déficit d’équipements sanitaires pour y rencontrer les associations des parents d’élèves et les responsables administratifs.
               <br /><br />
@@ -277,5 +195,4 @@
       });
     </script>
 
-  </body>
-</html>
+@endsection

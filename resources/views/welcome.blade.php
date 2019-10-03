@@ -14,21 +14,21 @@
     </ol>
     <div class="carousel-inner">
       <div class="carousel-item active">
-      <img src="https://ps.w.org/wp-carousel-free/assets/banner-1544x500.png?rev=2000936" alt="...">
+      <img src="https://pddt-tchad.org/wp-content/uploads/2016/02/head_01.jpg" alt="...">
         <div class="carousel-caption d-none d-md-block">
           <h5>First slide label</h5>
           <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
         </div>
       </div>
       <div class="carousel-item">
-        <img src="https://ps.w.org/wp-carousel-free/assets/banner-1544x500.png?rev=2000936" alt="...">
+        <img src="https://pddt-tchad.org/wp-content/uploads/2016/02/head_01.jpg" alt="...">
         <div class="carousel-caption d-none d-md-block">
           <h5>Second slide label</h5>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
         </div>
       </div>
       <div class="carousel-item">
-        <img src="https://ps.w.org/wp-carousel-free/assets/banner-1544x500.png?rev=2000936" alt="...">
+        <img src="https://pddt-tchad.org/wp-content/uploads/2016/02/head_01.jpg" alt="...">
         <div class="carousel-caption d-none d-md-block">
           <h5>Third slide label</h5>
           <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
@@ -58,7 +58,7 @@
             </div>
 
             <div>
-                <iframe class="video" src="https://www.youtube.com/embed/F9Bo89m2f6g" allowfullscreen></iframe>
+                <iframe class="video" src="https://www.youtube.com/embed/VFzt6l9V_2o" allowfullscreen></iframe>
             </div>
         </div>
         
@@ -69,7 +69,7 @@
                 
                 <div class="box">
                     <div class="imgBx">
-                        <img src="{{ asset('img/img1.jpg') }}">
+                        <img src="http://pddt-tchad.org/wp-content/uploads/2016/01/Sensibilisation_une.jpg">
                     </div>
                     <div class="content">
                         <div>
@@ -84,7 +84,7 @@
                 </div>
                 <div class="box">
                     <div class="imgBx">
-                        <img src="{{ asset('img/img2.jpg') }}">
+                        <img src="http://pddt-tchad.org/wp-content/uploads/2016/02/puits_une_01-1024x355.jpg">
                     </div>
                     <div class="content">
                         <div>
@@ -99,7 +99,7 @@
                 </div>
                 <div class="box">
                     <div class="imgBx">
-                        <img src="{{ asset('img/img3.jpg') }}">
+                        <img src="http://pddt-tchad.org/wp-content/uploads/2016/02/lits_une-1024x355.jpg">
                     </div>
                     <div class="content">
                         <div>
@@ -114,7 +114,7 @@
                 </div>
                 <div class="box">
                     <div class="imgBx">
-                        <img src="{{ asset('img/img4.jpg') }}">
+                        <img src="http://pddt-tchad.org/wp-content/uploads/2016/02/moussoro_une-1024x355.jpg">
                     </div>
                     <div class="content">
                         <div>

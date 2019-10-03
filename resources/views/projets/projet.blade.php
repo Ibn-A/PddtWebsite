@@ -1,18 +1,27 @@
 @extends('layouts.app')
 
 @section('content')
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css"
-      integrity="sha256-vK3UTo/8wHbaUn+dTQD0X6dzidqc5l7gczvH+Bnowwk="
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" type="text/css" href="{{ asset('css/projet.css') }}" />
-    <script
-      src="https://kit.fontawesome.com/2828f7885a.js"
-      integrity="sha384-WAsFbnLEQcpCk8lM1UTWesAf5rGTCvb2Y+8LvyjAAcxK1c3s5c0L+SYOgxvc6PWG"
-      crossorigin="anonymous"
-    ></script>
+      
+      <!-- Style Navbar -->
+      <style>
+        hr {
+          margin: 0 !important;
+          border-top: 1px solid rgba(0,0,0,.1) !important;
+        }
+      </style>
+
+      <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css"
+        integrity="sha256-vK3UTo/8wHbaUn+dTQD0X6dzidqc5l7gczvH+Bnowwk="
+        crossorigin="anonymous"
+      />
+      <link rel="stylesheet" type="text/css" href="{{ asset('css/projet.css') }}" />
+      <script
+        src="https://kit.fontawesome.com/2828f7885a.js"
+        integrity="sha384-WAsFbnLEQcpCk8lM1UTWesAf5rGTCvb2Y+8LvyjAAcxK1c3s5c0L+SYOgxvc6PWG"
+        crossorigin="anonymous"
+      ></script>
 
     <!-- Begin Scroll Up Button -->
     <form action="#home">
@@ -70,7 +79,7 @@
                 des latrines dans les écoles primaires et les marchés hebdomadaires.
               </p>
             </div>
-            <div class="column is-6 right-image " data-aos="fade-left">
+            <div class="column is-6 right-image" data-aos="fade-left">
               <img
                 class="is-rounded"
                 src="http://pddt-tchad.org/wp-content/gallery/Latrines_Inauguration/IMG_0102.jpg"
@@ -78,9 +87,9 @@
               />
             </div>
           </div>
-          <div class="columns is-multiline"
-            data-aos="fade-in"
-            data-aos-easing="linear">
+          <div class="p-5"
+            data-aos="fade-up"
+            data-aos-duration="1000">
             <p>
               L’Association PDDT s’est ainsi inscrite dans cette initiative locale et 2 de ses bénévoles ont visité, avec l’ONG tchadienne « Ecole saine, Ménage sain », 4 écoles primaires en déficit d’équipements sanitaires pour y rencontrer les associations des parents d’élèves et les responsables administratifs.
               <br /><br />
@@ -184,15 +193,6 @@
       <!-- End Work Content -->
       
     <!-- Scripts -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="{{ asset('js/projet.js') }}"></script>
-    <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
-    <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
-    <script>
-      AOS.init({
-        easing: "ease-out",
-        duration: 800,
-      });
-    </script>
+    
 
 @endsection

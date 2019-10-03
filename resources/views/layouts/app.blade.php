@@ -62,16 +62,16 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-center mr-auto">
-                <li class="nav-item">
+                <li class="nav-item mr-3">
                     <a class="nav-link" href="{{ url('/') }}">{{ __('Accueil') }}</a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item mr-3">
                     <a class="nav-link" href="">{{ __('Qui sommes-nous') }}</a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item mr-3">
                     <a class="nav-link" href="{{ url('/projets') }}">{{ __('Nos projets') }}</a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item ">
                     <a class="nav-link" href="">{{ __('Nos partenaires') }}</a>
                 </li>
             </ul>

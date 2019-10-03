@@ -95,9 +95,12 @@
               <br /><br />
               L’école primaire d’Application de N’djamena accueillant 613 élèves dont 231 filles a retenu l’attention de PDDT, pour 3 raisons :
               <br /><br />
-              l’existence d’une organisation impliquant les élèves et leurs parents dans l’entretien des équipements collectifs ;<br />
-              l’engagement écrit produit par l’école à assurer l’entretien de tout nouvel ouvrage offert ;<br />
-              l’école dispose d’un bloc de latrines à 4 cabines traditionnelles, bien vétustes, et d’un seul robinet d’eau.<br /><br />
+              <ol class="ml-3">
+               <li>l’existence d’une organisation impliquant les élèves et leurs parents dans l’entretien des équipements collectifs ;</li> 
+               <li>l’engagement écrit produit par l’école à assurer l’entretien de tout nouvel ouvrage offert ;</li>
+               <li>l’école dispose d’un bloc de latrines à 4 cabines traditionnelles, bien vétustes, et d’un seul robinet d’eau.</li>
+              </ol>
+              <br />
               Cette insuffisance de latrines pousse les élèves à déféquer à l’aire libre. Le problème d’hygiène est aggravé par le manque de point d’eau suffisant. Cette situation se traduit chez les élèves par des maladies diarrhéiques, de fièvre typhoïde etc.
               <br /><br />
               Par conséquent, grâce au soutien financier de l’Agence de l’Eau Rhin-Meuse, l’Association PDDT a construit 2 blocs de latrines à 3 cabines, installé 2 réservoirs d’eau (lave-mains) et réalisé un forage d’eau équipé d’une pompe à motricité humaine à l’école primaire d’Application.

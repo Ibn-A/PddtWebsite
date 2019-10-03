@@ -50,7 +50,6 @@
 
         <div class="bloc-1">
             <div class="article-1">
-                <h2 class="titre">Vidéo de présentation</h2>
                 <p>
                     Eodem tempore etiam Hymetii praeclarae indolis viri negotium est actitatum, cuius hunc novimus esse textum. 
                     cum Africam pro consule regeret Carthaginiensibus victus inopia iam lassatis, ex horreis Romano.

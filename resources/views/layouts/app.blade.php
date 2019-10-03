@@ -54,7 +54,7 @@
     <hr>
     <nav class="navbar navbar-expand-md navbar-light" id="nav">
             
-        <a class="navbar-brand" href="#">
+        <a class="navbar-brand" href="{{ url('/') }}">
             <img src="/img/pddtLogo.png" style="height: 4.5rem;" class="d-inline-block align-top" alt="">
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
@@ -62,11 +62,11 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-center mr-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Accueil <span class="sr-only">(current)</span></a>
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ url('/') }}">{{ __('Accueil') }}</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="">{{ __('Qui sommes-nous ?') }}</a>
+                    <a class="nav-link" href="">{{ __('Qui sommes-nous') }}</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="{{ url('/projets') }}">{{ __('Nos projets') }}</a>

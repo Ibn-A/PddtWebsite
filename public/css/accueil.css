@@ -1,6 +1,6 @@
 .bd-example img {
     width: 100%;
-    height: 60vh;
+    height: 88vh;
 }
 
 .bloc-1 {
@@ -115,4 +115,14 @@
 }
 .titre {
     text-align: center;
+}
+
+.bloc-4 {
+    margin: 5em 0 0 0;
+}
+.partenaire {
+    display: flex;
+}
+.partenaire img {
+    width: 7rem;
 }

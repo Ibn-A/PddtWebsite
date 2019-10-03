@@ -134,6 +134,37 @@
 
         </div>
 
+        <div class="bloc-4 justify-content-between">
+            <h2 class="titre">Nos partenaires</h2>
+            <div class="partenaire">
+                <div>
+                    <img src="http://pddt-tchad.org/wp-content/uploads/2016/04/logo_aerm.jpg" class="md:hover:bigger">
+                </div>
+                <div>
+                    <img src="http://pddt-tchad.org/wp-content/uploads/2016/02/Logo_la_guilde.gif">
+                </div>
+                <div>
+                    <img src="http://pddt-tchad.org/wp-content/uploads/2016/02/Logo_entraide_solidarity.jpg">
+                </div>
+                <div>
+                    <img src="http://pddt-tchad.org/wp-content/uploads/2016/02/Logo_ps_eau-300x300.png">
+                </div>
+                <div>
+                    <img src="http://pddt-tchad.org/wp-content/uploads/2016/02/Logo_strasbourg-300x80.png">
+                </div>
+                <div>
+                    <img src="http://pddt-tchad.org/wp-content/uploads/2016/04/HUMANIS.png">
+                </div>
+                <div>
+                    <img src="http://pddt-tchad.org/wp-content/uploads/2016/02/Logo_BSF-300x82.jpg">
+                </div>
+                <div>
+                    <img src="http://pddt-tchad.org/wp-content/uploads/2016/04/ecole_menage.png">
+                </div>
+            </div>
+            
+        </div>
+
     </section>
 
 @endsection

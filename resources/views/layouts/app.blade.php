@@ -68,7 +68,7 @@
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
-            <ul class="navbar-nav navbar-center mr-auto">
+            <ul class="navbar-nav navbar-center mr-auto mainnav">
                 <li class="nav-item mr-3">
                     <a class="nav-link" href="{{ url('/') }}">{{ __('Accueil') }}</a>
                 </li>

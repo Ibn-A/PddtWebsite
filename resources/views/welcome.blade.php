@@ -3,7 +3,7 @@
 @section('content')
 
 <!-- Styles -->
-<link href="{{ asset('css/style.css') }}" rel="stylesheet">
+<link href="{{ asset('css/accueil.css') }}" rel="stylesheet">
 
 <div class="bd-example">
   <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">

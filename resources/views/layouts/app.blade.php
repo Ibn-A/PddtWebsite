@@ -59,7 +59,7 @@
     <nav class="navbar navbar-expand-md navbar-light" id="nav">
             
         <a class="navbar-brand" href="#">
-            <img src="/img/pddtLogo.png" style="height:4rem;" class="d-inline-block align-top" alt="">
+            <img src="/img/pddtLogo.png" style="height: 4.5rem;" class="d-inline-block align-top" alt="">
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -129,7 +129,7 @@
         duration: 800,
       });
     </script>
-    
+
     <script src="{{ asset('js/scroll.js') }}"></script>
     <script src="{{ asset('js/app.js') }}"></script>
 

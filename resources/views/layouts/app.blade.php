@@ -60,7 +60,7 @@
         
     </div>
     <hr>
-    <nav class="navbar navbar-expand-md navbar-light" id="nav">
+    <nav class="navbar navbar-expand-md" id="nav">
             
         <a class="navbar-brand" href="{{ url('/') }}">
             <img src="/img/pddtLogo.png" style="height: 4.5rem;" class="d-inline-block align-top" alt="">

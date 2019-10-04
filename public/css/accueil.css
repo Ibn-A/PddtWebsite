@@ -1,28 +1,38 @@
-.bd-example img {
-    width: 100%;
+/* <----- Header -----> */
+.carousel-item {
     height: 88vh;
-}
+    min-height: 350px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
 
+  /* <----- bloc 1 -----> */
 .bloc-1 {
-    margin-top: 60px;
+    padding-top: 5rem;
+    padding-bottom: 7rem;
+    background-color: #f0f3f5;    
 }
-
 .article-1 {
-    margin-top: 40px;
+    padding-bottom: 2rem;
     font-size: 1.5em;
     line-height: 1.5;
     text-align: justify;
 }
-
 .video {
-    width: 100%;
-    height: 50vh;
+    width: 75%;
+    height: 28rem;
 }
 
+/* <----- bloc 2 -----> */
 .bloc-2 {
-    margin-top: 5em;
+    padding-top: 8rem;
+    padding-bottom: 10rem;
 }
 .projet {
+    padding-top: 8rem;
     position: relative;
     display: flex;
     flex-wrap: wrap;
@@ -103,9 +113,6 @@
     transform: translateY(0);
     transition-delay: 0.7s;
 }
-.bloc-3 {
-    margin: 5em 0 0 0;
-}
 .lien_projet {
     color: #000;
     font-style: italic;
@@ -113,12 +120,12 @@
 .lien_projet:hover {
     color: green;
 }
-.titre {
-    text-align: center;
-}
 
-.bloc-4 {
-    margin: 5em 0 0 0;
+/* <----- boc 3 -----> */
+.bloc-3 {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    background-color: #f1e8e8; 
 }
 .partenaire {
     display: flex;

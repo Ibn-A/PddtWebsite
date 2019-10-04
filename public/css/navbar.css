@@ -48,7 +48,7 @@
 .list-menu a {
   padding: 0.5rem 0.5rem;
 }
-hr {
+.first-hr {
   margin: 0;
   padding: 0;
   border-top: 2px solid rgba(0,0,0,.1);
@@ -72,16 +72,17 @@ hr {
   left: 0;
   right: 0;
 }
-.mainnav :hover{
+.mainnav :hover {
   background-color: #5cb85c;
-  color: white;
+  color: white !important;
 }
 .mainnav li a {
   font-size: 1.2rem;
-  color: #43485c;
+  color: #43485c !important;
 }
 @media (max-width: 1250px) {
   .mainnav li a {
       font-size: 1rem;
   }
 }
+

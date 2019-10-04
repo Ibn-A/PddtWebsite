@@ -97,7 +97,7 @@
     text-transform: uppercase;
     margin-bottom: 5px;
     font-size: 20px;
-    transform: translateY(210px);
+    transform: translateY(300px);
 }
 .projet .box:hover .content h2 {
     transform: translateY(0);

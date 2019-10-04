@@ -20,5 +20,5 @@ Auth::routes();
 Route::get('/home', 'HomeController@index')->name('home');
 
 Route::get('/projets', function () {
-    return view('projets.projet');
+    return view('projets.liste');
 });

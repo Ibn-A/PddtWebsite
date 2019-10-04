@@ -59,7 +59,7 @@
         <a class="nav-link" href="{{ route('login') }}">{{ __('ESPACE PARTENAIRES') }}</a>
         
     </div>
-    <hr>
+    <hr class="first-hr">
     <nav class="navbar navbar-expand-md navbar-light" id="nav">
             
         <a class="navbar-brand" href="{{ url('/') }}">
@@ -92,7 +92,7 @@
 
                 @if (Route::has('register'))
                     <li class="nav-item">
-                        <a style="font color:white;" class="nav-link btn btn-success mr-2" href="">{{ __('FAIRE UN DON') }}</a>
+                        <a style="color:white;" class="nav-link btn btn-success mr-2" href="">{{ __('FAIRE UN DON') }}</a>
                     </li>
                 @endif
 

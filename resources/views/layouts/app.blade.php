@@ -23,6 +23,7 @@
 
     <!-- Style CSS navbar -->
     <link rel="stylesheet" type="text/css" href="{{ asset('css/navbar.css') }}" />
+    <link rel="stylesheet" type="text/css" href="{{ asset('css/footer.css') }}" />
     
     
 </head>
@@ -31,7 +32,7 @@
     
 
     <button onclick="topFunction()" id="toTop" title="Go to top"><i class="fas fa-angle-up"></i></button>
-
+    
     <div class="nav-top">
         <ul class="list-menu">
             <li>
@@ -121,6 +122,9 @@
     <main>
         @yield('content')
     </main>
+    <footer id="footer" class="footer-1">
+        @include('includes.footer')
+    </footer>
 
     <!-- Scripts -->
     <script src="{{ asset('js/scroll.js') }}"></script>

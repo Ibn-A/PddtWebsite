@@ -16,21 +16,21 @@
                 <!-- Slide One - Set the background image for this slide in the line below -->
                 <div class="carousel-item active" style="background-image: url('http://placehold.it/1920x1080')">
                     <div class="carousel-caption d-none d-md-block">
-                        <h2 class="display-4">First Slide</h2>
+                        <h2 class="display-4">Eau</h2>
                         <p class="lead">This is a description for the first slide.</p>
                     </div>
                 </div>
                 <!-- Slide Two - Set the background image for this slide in the line below -->
                 <div class="carousel-item" style="background-image: url('http://placehold.it/1920x1080')">
                     <div class="carousel-caption d-none d-md-block">
-                        <h2 class="display-4">Second Slide</h2>
+                        <h2 class="display-4">L'Education</h2>
                         <p class="lead">This is a description for the second slide.</p>
                     </div>
                 </div>
                 <!-- Slide Three - Set the background image for this slide in the line below -->
                 <div class="carousel-item" style="background-image: url('http://placehold.it/1920x1080')">
                     <div class="carousel-caption d-none d-md-block">
-                        <h2 class="display-4">Third Slide</h2>
+                        <h2 class="display-4">La santé</h2>
                         <p class="lead">This is a description for the third slide.</p>
                     </div>
                 </div>
@@ -51,7 +51,7 @@
         <div class="bloc-1">
             <div class ="container">
                 <div class="article-1">
-                    <h1 class="font-weight-light text-center text-lg-left mt-4 mb-0">Lorem</h1>
+                    <h2 class="font-weight-light text-center text-lg-left mt-4 mb-0">Nos valeurs</h2>
                     <hr class="mt-2 mb-4">
                     <p>
                     Eodem tempore etiam Hymetii praeclarae indolis viri negotium est actitatum, cuius hunc novimus esse textum. 
@@ -74,7 +74,7 @@
                         </div>
                         <div class="content">
                             <div>
-                                <h2>Image Title</h2>
+                                <h2>Pour une eau plus accessible</h2>
                                 <p>
                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur pariatur 
                                 nesciunt adipisci quam molestiae quasi quibusdam accusamus ullam quod ex modi 
@@ -89,7 +89,7 @@
                         </div>
                         <div class="content">
                             <div>
-                                <h2>Image Title</h2>
+                                <h2>Education</h2>
                                 <p>
                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur pariatur 
                                 nesciunt adipisci quam molestiae quasi quibusdam accusamus ullam quod ex modi 
@@ -104,7 +104,7 @@
                         </div>
                         <div class="content">
                             <div>
-                                <h2>Image Title</h2>
+                                <h2> Santé</h2>
                                 <p>
                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur pariatur 
                                 nesciunt adipisci quam molestiae quasi quibusdam accusamus ullam quod ex modi 
@@ -119,7 +119,7 @@
                         </div>
                         <div class="content">
                             <div>
-                                <h2>Image Title</h2>
+                                <h2>Forage de puits</h2>
                                 <p>
                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur pariatur 
                                 nesciunt adipisci quam molestiae quasi quibusdam accusamus ullam quod ex modi 

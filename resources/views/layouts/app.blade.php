@@ -23,6 +23,7 @@
 
     <!-- Style CSS navbar -->
     <link rel="stylesheet" type="text/css" href="{{ asset('css/navbar.css') }}" />
+    <link rel="stylesheet" type="text/css" href="{{ asset('css/footer.css') }}" />
     
     
 </head>
@@ -31,7 +32,7 @@
     
 
     <button onclick="topFunction()" id="toTop" title="Go to top"><i class="fas fa-angle-up"></i></button>
-
+    
     <div class="nav-top">
         <ul class="list-menu">
             <li>
@@ -59,11 +60,10 @@
         
     </div>
     <hr>
-
-    <nav class="navbar navbar-expand-md">
+    <nav class="navbar navbar-expand-md navbar-light" id="nav">
             
         <a class="navbar-brand" href="{{ url('/') }}">
-            <img src="/img/pddtLogo.png" class="d-inline-block align-top" alt="">
+            <img src="/img/pddtLogo.png" style="height: 4.5rem;" class="d-inline-block align-top" alt="">
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -92,7 +92,7 @@
 
                 @if (Route::has('register'))
                     <li class="nav-item">
-                        <a class="nav-link btn btn-success mr-2" href="">{{ __('FAIRE UN DON') }}</a>
+                        <a style="font color:white;" class="nav-link btn btn-success mr-2" href="">{{ __('FAIRE UN DON') }}</a>
                     </li>
                 @endif
 
@@ -122,6 +122,9 @@
     <main>
         @yield('content')
     </main>
+    <footer id="footer" class="footer-1">
+        @include('includes.footer')
+    </footer>
 
     <!-- Scripts -->
     <script src="{{ asset('js/scroll.js') }}"></script>

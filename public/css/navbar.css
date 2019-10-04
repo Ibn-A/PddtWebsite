@@ -9,7 +9,7 @@
   z-index: 99;
   border: none;
   outline: none;
-  background-color: rgba(31, 44, 108, 0.65);
+  background-color: #e0cda9;
   color: white;
   cursor: pointer;
   border-radius: 50%;
@@ -20,7 +20,7 @@
   color: white;
 }
 #toTop:hover {
-  background-color: #43485c;
+  background-color: #5cb85c;
 }
 
 /* Scroll bar */

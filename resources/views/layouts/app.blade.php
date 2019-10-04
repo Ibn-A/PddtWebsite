@@ -59,10 +59,11 @@
         
     </div>
     <hr>
-    <nav class="navbar navbar-expand-md navbar-light" id="nav">
+
+    <nav class="navbar navbar-expand-md">
             
         <a class="navbar-brand" href="{{ url('/') }}">
-            <img src="/img/pddtLogo.png" style="height: 4.5rem;" class="d-inline-block align-top" alt="">
+            <img src="/img/pddtLogo.png" class="d-inline-block align-top" alt="">
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -91,7 +92,7 @@
 
                 @if (Route::has('register'))
                     <li class="nav-item">
-                        <a style="font color:white;" class="nav-link btn btn-success mr-2" href="">{{ __('FAIRE UN DON') }}</a>
+                        <a class="nav-link btn btn-success mr-2" href="">{{ __('FAIRE UN DON') }}</a>
                     </li>
                 @endif
 

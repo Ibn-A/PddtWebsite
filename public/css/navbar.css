@@ -74,13 +74,11 @@ hr {
 }
 .mainnav :hover{
     background-color: #5cb85c;
+    color: white;
 }
 .mainnav li a {
     font-size: 1.2rem;
     color: #43485c;
-}
-.mainnav :hover {
-    color: white;
 }
 @media (max-width: 1250px) {
     .mainnav li a {

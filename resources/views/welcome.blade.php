@@ -130,7 +130,7 @@
                     </div>
                 </div>
                 <div class="text-center mt-4">
-                    <a class="lien_projet" href="#">voir plus...</a>
+                    <a class="lien_projet" href="#">PLUS DE PROJETS</a>
                 </div>
             </div>
         </div>

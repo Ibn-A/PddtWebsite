@@ -581,10 +581,10 @@ pre code {
 
 .container {
   width: 100%;
-  padding-right: 0px;
-  padding-left: 0px;
-  margin-right: 0;
-  margin-left: 0;
+  padding-right: 5px;
+  padding-left: 5px;
+  margin-right: 2px;
+  margin-left: 2px;
 }
 
 @media (min-width: 576px) {

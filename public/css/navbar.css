@@ -77,8 +77,8 @@
   color: white !important;
 }
 .mainnav li a {
-  font-size: 1.2rem;
-  color: #43485c !important;
+  font-size: 0.9rem;
+  color: #e0cda9 !important;
 }
 @media (max-width: 1250px) {
   .mainnav li a {

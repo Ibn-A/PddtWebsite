@@ -37,16 +37,16 @@
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-center mr-auto mainnav">
                 <li class="nav-item mr-3">
-                    <a class="nav-link" href="{{ url('/') }}">{{ __('Accueil') }}</a>
+                    <a class="nav-link" href="{{ url('/') }}">{{ __('ACCUEIL') }}</a>
                 </li>
                 <li class="nav-item mr-3">
-                    <a class="nav-link" href="">{{ __('Qui sommes-nous') }}</a>
+                    <a class="nav-link" href="">{{ __('QUI SOMMES-NOUS') }}</a>
                 </li>
                 <li class="nav-item mr-3">
-                    <a class="nav-link" href="{{ url('/projets') }}">{{ __('Nos projets') }}</a>
+                    <a class="nav-link" href="{{ url('/projets') }}">{{ __('NOS ACTIONS') }}</a>
                 </li>
                 <li class="nav-item ">
-                    <a class="nav-link" href="">{{ __('Nos partenaires') }}</a>
+                    <a class="nav-link" href="">{{ __('NOS PARTENAIRES') }}</a>
                 </li>
             </ul>
             <ul class="navbar-nav navbar-right">

@@ -16,22 +16,22 @@
                 <!-- Slide One - Set the background image for this slide in the line below -->
                 <div class="carousel-item active" style="background-image: url('http://placehold.it/1920x1080')">
                     <div class="carousel-caption d-none d-md-block">
-                        <h2 class="display-4">Eau</h2>
-                        <p class="lead">This is a description for the first slide.</p>
+                        <h2 class="display-4"> L'Eau </h2>
+                        <p class="lead">Un accès a l'eau potable pour tous</p>
                     </div>
                 </div>
                 <!-- Slide Two - Set the background image for this slide in the line below -->
                 <div class="carousel-item" style="background-image: url('http://placehold.it/1920x1080')">
                     <div class="carousel-caption d-none d-md-block">
                         <h2 class="display-4">L'Education</h2>
-                        <p class="lead">This is a description for the second slide.</p>
+                        <p class="lead">Une meilleur éducation pour un meilleur future</p>
                     </div>
                 </div>
                 <!-- Slide Three - Set the background image for this slide in the line below -->
                 <div class="carousel-item" style="background-image: url('http://placehold.it/1920x1080')">
                     <div class="carousel-caption d-none d-md-block">
-                        <h2 class="display-4">La santé</h2>
-                        <p class="lead">This is a description for the third slide.</p>
+                        <h2 class="display-4">La santé </h2>
+                        <p class="lead">Un meilleur accès a la santé</p>
                     </div>
                 </div>
             </div>

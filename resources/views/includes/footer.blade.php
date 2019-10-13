@@ -2,7 +2,7 @@
     
 <footer id="footer" >
     <div class="main-footer widgets-dark typo-light">
-        <div class="container">
+        <div class="container-footer">
             <div class="row ml-2">  
                 <div class="col-xs-12 col-sm-2 col-md-3">
                     <div class="widget subscribe no-box">
@@ -94,7 +94,7 @@
         </div>
     </div>
     <div class="footer-copyright">
-        <div class="container">
+        <div class="container-footer">
             <div class="row">
                 <div class="col-md-12 text-center">
                     <p>Association Pddt © 2015. All rights reserved.</p>

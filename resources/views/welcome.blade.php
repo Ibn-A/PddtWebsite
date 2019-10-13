@@ -3,7 +3,7 @@
 @section('content')
 
     <!-- Styles -->
-    <link href="{{ asset('css/accueil.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/welcome.css') }}" rel="stylesheet">
 
     <header>
         <div id="carouselIndicators" class="carousel slide" data-ride="carousel">
@@ -67,7 +67,7 @@
         <div class="bloc-2">
             <div class ="container">
                 <h1 class="font-weight-light text-center">Nos Projets</h1>
-                <div class="projet text-center">
+                <div class="projet text-center justify-content-center">
                     <div class="box">
                         <div class="imgBx">
                             <img src="http://placehold.it/275">

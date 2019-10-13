@@ -3,7 +3,7 @@
 <footer id="footer" >
     <div class="main-footer widgets-dark typo-light">
         <div class="container-footer">
-            <div class="row ml-2">  
+            <div class="row ml-2 justify-content-between">  
                 <div class="col-xs-12 col-sm-2 col-md-3">
                     <div class="widget subscribe no-box">
                         <a class="navbar-brand" href="{{ url('/') }}">
@@ -21,7 +21,7 @@
                     </div>
                 </div>
 
-                <div class="col-xs-12 col-sm-6 col-md-3">
+                <div class="col-xs-12 col-sm-6 col-md-2">
                     <div class="widget no-box">
                         <h5 class="widget-title">L'essentiel<span></span></h5>
                         <ul class="thumbnail-widget">
@@ -54,7 +54,7 @@
                         </div>
                 </div>
 
-                <div class="col-xs-12 col-sm-6 col-md-3">
+                <div class="col-xs-12 col-sm-6 col-md-2">
                     <div class="widget no-box">
                         <h5 class="widget-title">Nous Contacter<span></span></h5>
                         <p style="color:black">

@@ -40,13 +40,13 @@
                     <a class="nav-link" href="{{ url('/') }}">{{ __('ACCUEIL') }}</a>
                 </li>
                 <li class="nav-item mr-3">
-                    <a class="nav-link" href="">{{ __('QUI SOMMES-NOUS') }}</a>
+                    <a class="nav-link" href="{{ url('/qui-sommes-nous') }}">{{ __('QUI SOMMES-NOUS') }}</a>
                 </li>
                 <li class="nav-item mr-3">
                     <a class="nav-link" href="{{ url('/projets') }}">{{ __('NOS ACTIONS') }}</a>
                 </li>
                 <li class="nav-item ">
-                    <a class="nav-link" href="">{{ __('NOS PARTENAIRES') }}</a>
+                    <a class="nav-link" href="{{ url('/partenaires') }}">{{ __('NOS PARTENAIRES') }}</a>
                 </li>
             </ul>
             <ul class="navbar-nav navbar-right">

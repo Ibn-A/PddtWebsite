@@ -22,3 +22,11 @@ Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/projets', function () {
     return view('projets.liste');
 });
+
+Route::get('/partenaires', function () {
+    return view('partenaire');
+});
+
+Route::get('/qui-sommes-nous', function () {
+    return view('qsm');
+});

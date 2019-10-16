@@ -6,38 +6,46 @@
     <link rel="stylesheet" type="text/css" href="{{ asset('css/partenaire.css') }}" />
 
     <!-- Partenaire Section -->
-    <section class="partenanire-section bg-light">
+    <section class="partenaire bg-light">
     <div class="container">
-        <h2 class="font-weight-light text-center text-lg-left mt-4 mb-0">Lorem ipsum</h2>
+        <h2 class="font-weight-light text-center text-lg-left">Lorem ipsum</h2>
         <hr class="mt-2 mb-5">
 
         <!-- Partenaire list -->
-        <div class="partenaire justify-content-between">
-            <div>
-                <img src="http://pddt-tchad.org/wp-content/uploads/2016/04/logo_aerm.jpg" class="md:hover:bigger">
-            </div>
-            <div>
-                <img src="http://pddt-tchad.org/wp-content/uploads/2016/02/Logo_la_guilde.gif">
-            </div>
-            <div>
-                <img src="http://pddt-tchad.org/wp-content/uploads/2016/02/Logo_entraide_solidarity.jpg">
-            </div>
-            <div>
-                <img src="http://pddt-tchad.org/wp-content/uploads/2016/02/Logo_ps_eau-300x300.png">
-            </div>
-        </div>
-        <div class="partenaire justify-content-between pt-5">
-            <div>
-                <img src="http://pddt-tchad.org/wp-content/uploads/2016/02/Logo_strasbourg-300x80.png">
-            </div>
-            <div>
-                <img src="http://pddt-tchad.org/wp-content/uploads/2016/04/HUMANIS.png">
-            </div>
-            <div>
-                <img src="http://pddt-tchad.org/wp-content/uploads/2016/02/Logo_BSF-300x82.jpg">
-            </div>
-            <div>
-                <img src="http://pddt-tchad.org/wp-content/uploads/2016/04/ecole_menage.png">
+        <div class="text-center">
+            <div class="row">
+                <div class="col-md-4 col-lg-3">
+                    <img class="img-fluid"  src="http://placehold.it/250">
+                    <h6>Lorem ipsum</h6>
+                </div>
+                <div class="col-md-4 col-lg-3">
+                    <img class="img-fluid"  src="http://placehold.it/250">
+                    <h6>Lorem ipsum</h6>
+                </div>
+                <div class="col-md-4 col-lg-3">
+                    <img class="img-fluid"  src="http://placehold.it/250">
+                    <h6>Lorem ipsum</h6>
+                </div>
+                <div class="col-md-4 col-lg-3">
+                    <img class="img-fluid"  src="http://placehold.it/250">
+                    <h6>Lorem ipsum</h6>
+                </div>
+                <div class="col-md-4 col-lg-3">
+                    <img class="img-fluid"  src="http://placehold.it/250">
+                    <h6>Lorem ipsum</h6>
+                </div>
+                <div class="col-md-4 col-lg-3">
+                    <img class="img-fluid"  src="http://placehold.it/250">
+                    <h6>Lorem ipsum</h6>
+                </div>
+                <div class="col-md-4 col-lg-3"> 
+                    <img class="img-fluid"  src="http://placehold.it/250">
+                    <h6>Lorem ipsum</h6>
+                </div>
+                <div class="col-md-4 col-lg-3">
+                    <img class="img-fluid"  src="http://placehold.it/250">
+                    <h6>Lorem ipsum</h6>
+                </div>
             </div>
         </div>
     </div> 

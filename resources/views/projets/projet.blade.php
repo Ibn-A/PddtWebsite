@@ -190,6 +190,9 @@
                 ></figure>
               </a>
             </div>
+            <div class="column is-12">
+              <h1 class="has-text-centered"><a href="{{ url('/projets/gallery/1') }}">Voir plus...</a></h1>
+            </div>
           </div>
         </div>
       </div>

@@ -23,6 +23,15 @@ Route::get('/projets', function () {
     return view('projets.liste');
 });
 
+Route::get('/projets/gallery/1', function () {
+    return view('projets.gallery');
+});
+
+
+Route::get('/projets/1', function () {
+    return view('projets.projet');
+});
+
 Route::get('/partenaires', function () {
     return view('partenaire');
 });

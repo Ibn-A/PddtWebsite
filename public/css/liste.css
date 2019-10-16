@@ -30,7 +30,12 @@
 }
 
 
-body {
+h4 {
+    font-family: 'Nunito';
+    letter-spacing: 0.0625em;
+}
+
+p {
     font-family: 'Nunito';
     letter-spacing: 0.0625em;
 }

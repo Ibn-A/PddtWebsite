@@ -19,7 +19,15 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 
-Route::get('/projets', function () {
+Route::get('/qui-sommes-nous', function () {
+    return view('qsm');
+});
+
+Route::resource('projets', 'ProjetController');
+
+Route::get('category/{slug}/projets', 'ProjetController@index')->name('projets.category');
+
+/* Route::get('/projets', function () {
     return view('projets.liste');
 });
 
@@ -27,15 +35,11 @@ Route::get('/projets/gallery/1', function () {
     return view('projets.gallery');
 });
 
-
 Route::get('/projets/1', function () {
     return view('projets.projet');
-});
+}); */
 
 Route::get('/partenaires', function () {
     return view('partenaire');
 });
 
-Route::get('/qui-sommes-nous', function () {
-    return view('qsm');
-});

@@ -23,7 +23,11 @@
                 </a>
             </li>
         </ul>
-        <a class="nav-link" href="{{ route('login') }}">{{ __('ESPACE PARTENAIRES') }}</a>    
+        @guest
+            <a class="nav-link" href="{{ route('login') }}">{{ __('ESPACE PARTENAIRES') }}</a>
+        @else
+            <a class="nav-link" href="{{ route('login') }}">{{ __('BIENVENUE') }}</a>
+        @endguest
     </div>
     <hr class="first-hr">
     <nav class="navbar navbar-expand-md navbar-light" id="nav">
@@ -43,7 +47,7 @@
                     <a class="nav-link" href="{{ url('/qui-sommes-nous') }}">{{ __('QUI SOMMES-NOUS') }}</a>
                 </li>
                 <li class="nav-item mr-3">
-                    <a class="nav-link" href="{{ url('/projets') }}">{{ __('NOS ACTIONS') }}</a>
+                    <a class="nav-link" href="{{ route('projets.index') }}">{{ __('NOS ACTIONS') }}</a>
                 </li>
                 <li class="nav-item ">
                     <a class="nav-link" href="{{ url('/partenaires') }}">{{ __('NOS PARTENAIRES') }}</a>
@@ -65,7 +69,7 @@
                 @else
                     <li class="nav-item dropdown">
                         <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
-                            {{ Auth::user()->name }} <span class="caret"></span>
+                        {{ Auth::user()->name }} <span class="caret"></span>
                         </a>
 
                         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">

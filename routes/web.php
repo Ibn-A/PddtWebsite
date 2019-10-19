@@ -27,6 +27,9 @@ Route::resource('projets', 'ProjetController');
 
 Route::get('category/{slug}/projets', 'ProjetController@index')->name('projets.category');
 
+Route::delete('projets/force/{projet}', 'ProjetController@forceDestroy')->name('projets.force.destroy');
+Route::put('projets/restore/{projet}', 'ProjetController@restore')->name('projets.restore');
+
 /* Route::get('/projets', function () {
     return view('projets.liste');
 });

@@ -24,11 +24,11 @@ class Projet extends FormRequest
     public function rules()
     {
         return [
-            'author' => ['required', 'string', 'max:100'],
-            'title' => ['required', 'string', 'max:100'],
-            'sub_title' => ['required', 'string', 'max:100'],
-            'article' => ['required', 'string', 'max:100'],
-            'sub_article' => ['required', 'string', 'max:100'],
+            'author' => ['required', 'string'],
+            'title' => ['required', 'string'],
+            'sub_title' => ['required', 'string'],
+            'article' => ['required'],
+            'sub_article' => ['required'],
         ];
     }
 }

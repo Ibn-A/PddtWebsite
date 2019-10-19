@@ -13,6 +13,16 @@
                     <form action="{{ route('projets.store') }}" method="POST">
                         @csrf
                         <div class="form-group">
+                            <label class="label">Catégorie</label>
+                            <div class="select">
+                                <select class="form-control col-2" name="category_id">
+                                    @foreach($categories as $category)
+                                        <option value="{{ $category->id }}">{{ $category->name }}</option>
+                                    @endforeach
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group">
                             <label class="label">Author</label>
                             <div class="control">
                             <input class="form-control @error('author') is-danger @enderror" type="text" name="author" value="{{ old('author') }}" placeholder="Autheur du projet">

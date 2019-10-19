@@ -3,7 +3,6 @@
 namespace App\Http\Controllers;
 
 use App\{Projet, Category};
-use Illuminate\Http\Request;
 use App\Http\Requests\Projet as ProjetRequest;
 
 class ProjetController extends Controller
@@ -11,14 +10,14 @@ class ProjetController extends Controller
     /**
      * Display a listing of the resource.
      *
+     * @param String $slug
      * @return \Illuminate\Http\Response
      */
     public function index($slug = null)
     {
         $query = $slug ? Category::whereSlug($slug)->firstOrFail()->projets() : Projet::query();
-        $projets = Projet::all();
-        $categories = Category::all();
-        return view('projets.index', compact('projets', 'categories', 'slug'));
+        $projets = $query->withTrashed()->oldest('title')->paginate(5);
+        return view('projets.index', compact('projets', 'slug'));
     }
 
     /**
@@ -52,7 +51,8 @@ class ProjetController extends Controller
      */
     public function show(Projet $projet)
     {
-        return view('projets.show', compact('projet'));
+        $category = $projet->category->name;    
+        return view('projets.show', compact('projet', 'category'));
     }
 
     /**
@@ -91,5 +91,31 @@ class ProjetController extends Controller
         $projet->delete();
 
         return back()->with('info', 'Le projet a bien été supprimé dans la base de données.');
+    }
+
+        /**
+     * Remove the specified resource from storage.
+     *
+     * @param  Int $id
+     * @return \Illuminate\Http\Response
+     */
+    public function forceDestroy($id)
+    {
+        Projet::withTrashed()->whereId($id)->firstOrFail()->forceDelete();
+
+        return back()->with('info', 'Le projet a bien été supprimé définitivement dans la base de données.');
+    }
+
+    /**
+     * Restore the specified resource.
+     *
+     * @param  Int $id
+     * @return \Illuminate\Http\Response
+     */
+    public function restore($id)
+    {
+        Projet::withTrashed()->whereId($id)->firstOrFail()->restore();
+
+        return back()->with('info', 'Le projet a bien été restauré.');
     }
 }

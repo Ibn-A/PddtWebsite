@@ -29,7 +29,6 @@
                         <table class="table is-hoverable">
                             <thead>
                                 <tr>
-                                    <th>#</th>
                                     <th>Titre</th>
                                     <th></th>
                                     <th></th>
@@ -38,13 +37,27 @@
                             </thead>
                             <tbody>
                                 @foreach($projets as $projet)
-                                    <tr>
-                                        <td>{{ $projet->id }}</td>
+                                    <tr @if($projet->deleted_at) class="has-background-grey-lighter" @endif>
                                         <td><strong>{{ $projet->title }}</strong></td>
-                                        <td><a class="btn btn-info" href="{{ route('projets.show', $projet->id) }}">Voir</a></td>
-                                        <td><a class="btn btn-warning" href="{{ route('projets.edit', $projet->id) }}">Modifier</a></td>
+                                            <td>
+                                                @if($projet->deleted_at)
+                                                    <form action="{{ route('projets.restore', $projet->id) }}" method="post">
+                                                        @csrf
+                                                        @method('PUT')
+                                                        <button class="btn btn-primary" type="submit">Restaurer</button>
+                                                    </form>
+                                                @else
+                                                    <a class="btn btn-primary" href="{{ route('projets.show', $projet->id) }}">Voir</a>
+                                                @endif
+                                            </td>
+                                            <td>
+                                                @if($projet->deleted_at)
+                                                @else
+                                                    <a class="btn btn-warning" href="{{ route('projets.edit', $projet->id) }}">Modifier</a>
+                                                @endif
+                                            </td>
                                         <td>
-                                            <form action="{{ route('projets.destroy', $projet->id) }}" method="post">
+                                            <form action="{{ route($projet->deleted_at? 'projets.force.destroy' : 'projets.destroy', $projet->id) }}" method="post">
                                                 @csrf
                                                 @method('DELETE')
                                                 <button class="btn btn-danger" type="submit">Supprimer</button>
@@ -56,6 +69,9 @@
                         </table>
                     </div>
                 </div>
+                <footer class="card-footer">
+                    {{ $projets->links() }}
+                </footer>
             </div>
             
         </div>

@@ -19,8 +19,9 @@ class CreateProjetsTable extends Migration
             $table->string('author');
             $table->string('title');
             $table->string('sub_title');
-            $table->string('article');
-            $table->string('sub_article');
+            $table->text('article');
+            $table->text('sub_article');
+            $table->softDeletes();
             $table->timestamps();
             $table->unsignedBigInteger('category_id');
             $table->foreign('category_id')

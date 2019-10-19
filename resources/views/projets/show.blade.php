@@ -9,6 +9,7 @@
             <div class="card">
                 <header class="card-header">
                     <p class="card-header-title">Ecrit par : {{ $projet->author }}</p>
+                    <p>Catégorie : {{ $category }}</p>
                 </header>
                 <div class="card-content">
                     <div class="content">

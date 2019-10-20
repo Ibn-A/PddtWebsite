@@ -1,28 +1,6 @@
-.card-header {
-    background-color: transparent;
-    display: flex;
-}
-
-.card-header-title {
-    align-items: center;
-    color: #363636;
-    display: flex;
-    flex-grow: 1;
-    font-weight: 700;
-}
-
-.card-content {
-    background-color: transparent;
-    padding: 2.5rem;
-}
 
 .card {
     box-shadow: 0 0.5em 1em -0.125em rgba(10, 10, 10, 0.1), 0 0px 0 1px rgba(10, 10, 10, 0.02);
-}
-
-.card-content {
-    background-color: transparent;
-    padding: 1.5rem;
 }
 
 .control {
@@ -33,21 +11,11 @@
     text-align: left;
 }
 
-.help {
-    display: block;
-    font-size: 0.75rem;
-    margin-top: 0.25rem;
-}
-
-.is-danger {
-    color: #f14668;
-}
-
-.card-footer {
+/* .card-footer {
     justify-content: center;
     align-items: center;
     padding: 0.4em;
     border-top: 1px solid #ededed;
     align-items: stretch;
     display: flex;
-}
+} */

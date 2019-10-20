@@ -2,31 +2,34 @@
 
 @section('content')
 
-<link rel="stylesheet" type="text/css" href="{{ asset('css/style.css') }}" />
-
-    <section class="section mt-5 mb-5">
-        <div class="container">
+    <div class="container mt-5 mb-5">
+        <div class="row justify-content-center">
             @if(session()->has('info'))
-                <div class="alert alert-success">
+                <div class="alert alert-success col-md-8 text-center">
                     {{ session('info') }}
                 </div>
             @endif
-            <div class="card">
-                <header class="card-header">
-                    <p class="card-header-title">projets</p>
-  
-                    <select class="mr-3" onchange="window.location.href = this.value">
-                        <option value="{{ route('projets.index') }}" @unless($slug) selected @endunless>Toutes catégories</option>
-                        @foreach($categories as $category)
-                            <option value="{{ route('projets.category', $category->slug) }}" {{ $slug == $category->slug ? 'selected' : '' }}>{{ $category->name }}</option>
-                        @endforeach
-                    </select>
-                    
-                    <a class="btn btn-primary" href="{{ route('projets.create') }}">Créer un projet</a>
-                </header>
-                <div class="card-content">
-                    <div class="content">
-                        <table class="table is-hoverable">
+            <div class="col-md-12">
+                <div class="card">
+                    <header class="card-header d-flex">
+                        <h5 class="card-title">Projets</h5>
+                        
+                        <select class="ml-auto mr-3" onchange="window.location.href = this.value">
+                            <option value="{{ route('projets.index') }}" @unless($slug) selected @endunless>Toutes catégories</option>
+                            @foreach($categories as $category)
+                                <option value="{{ route('projets.category', $category->slug) }}" {{ $slug == $category->slug ? 'selected' : '' }}>{{ $category->name }}</option>
+                            @endforeach
+                        </select>
+                        
+                        <a class="btn btn-primary" href="{{ route('projets.create') }}">Créer un projet</a>
+                    </header>
+
+                    <div class="text-center mt-3">
+                        <h3>Liste des Projets</h3>
+                    </div>
+
+                    <div class="card-body">
+                        <table class="table table-hover">
                             <thead>
                                 <tr>
                                     <th>Titre</th>
@@ -68,13 +71,12 @@
                             </tbody>
                         </table>
                     </div>
-                </div>
-                <footer class="card-footer">
-                    {{ $projets->links() }}
-                </footer>
+                    <footer class="card-footer">
+                        {{ $projets->links() }}
+                    </footer>
+                    </div>
             </div>
-            
         </div>
-    </section>
+    </div>
 
 @endsection

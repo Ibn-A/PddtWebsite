@@ -24,11 +24,12 @@
     <!-- Style CSS navbar -->
     <link rel="stylesheet" type="text/css" href="{{ asset('css/navbar.css') }}" />
     <link rel="stylesheet" type="text/css" href="{{ asset('css/footer.css') }}" />    
+    <link rel="stylesheet" type="text/css" href="{{ asset('css/style.css') }}" />
 </head>
 <body>
 
     <header>
-        @include('includes.header')
+        @include('includes.navbar')
     </header>
 
     <main>

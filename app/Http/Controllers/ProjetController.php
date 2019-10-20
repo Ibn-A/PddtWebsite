@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers;
 
-use App\{Projet, Category};
+use App\{Projet, Category, Comment};
 use App\Http\Requests\Projet as ProjetRequest;
 
 class ProjetController extends Controller
@@ -51,8 +51,10 @@ class ProjetController extends Controller
      */
     public function show(Projet $projet)
     {
+        $comments = Comment::latest('created_at')->get();
+
         $category = $projet->category->name;    
-        return view('projets.show', compact('projet', 'category'));
+        return view('projets.show', compact('projet', 'category', 'comments'));
     }
 
     /**

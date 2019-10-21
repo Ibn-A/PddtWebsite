@@ -10,7 +10,7 @@
     <!-- Projects Section -->
     <section id="projects" class="projects-section bg-light">
         <div class="container">
-            <h2 class="font-weight-light text-center text-lg-left">Lorem ipsum</h2>
+            <h2 class="font-weight-light text-center text-lg-left">Nos actions</h2>
             <hr class="mt-2 mb-5">
 
             <!-- Featured Project Row -->
@@ -20,7 +20,7 @@
                 </div>
                 <div class="col-xl-4 col-lg-5">
                     <div class="featured-text text-center text-lg-left">
-                        <h4><a href="{{ url('/projets/1') }}">Lorem</a></h4>
+                        <h4><a href="{{ url('/projets/1') }}"> projet </a></h4>
                         <p class="text-black-50 mb-0">Haec igitur Epicuri non probo, inquam. De cetero vellem equidem aut ipse doctrinis fuisset instructior est enim, quod tibi ita videri necesse est.</p>
                     </div>
                 </div>
@@ -35,7 +35,7 @@
                     <div class="bg-black text-center h-100 project">
                         <div class="d-flex h-100">
                             <div class="project-text w-100 my-auto text-center text-lg-left">
-                                <h4 class="text-white">Lorem</h4>
+                                <h4 class="text-white">projet </S></h4>
                                 <p class="mb-0 text-white-50">An example of where you can put an image of a project, or anything else, along with a description.</p>
                                 <hr class="d-none d-lg-block mb-0 ml-0">
                             </div>
@@ -53,7 +53,7 @@
                     <div class="bg-change text-center h-100 project">
                         <div class="d-flex h-100">
                             <div class="project-text w-100 my-auto text-center text-lg-right">
-                                <h4 class="text-white">Lorem</h4>
+                                <h4 class="text-white">projet</h4>
                                 <p class="mb-0 text-white-50">Another example of a project with its respective description. These sections work well responsively as well, try this theme on a small screen!</p>
                                 <hr class="d-none d-lg-block mb-0 mr-0">
                             </div>
@@ -71,7 +71,7 @@
                     <div class="bg-black text-center h-100 project">
                         <div class="d-flex h-100">
                             <div class="project-text w-100 my-auto text-center text-lg-left">
-                                <h4 class="text-white">Lorem</h4>
+                                <h4 class="text-white">projet</h4>
                                 <p class="mb-0 text-white-50">An example of where you can put an image of a project, or anything else, along with a description.</p>
                                 <hr class="d-none d-lg-block mb-0 ml-0">
                             </div>
@@ -89,7 +89,7 @@
                     <div class="bg-change text-center h-100 project">
                         <div class="d-flex h-100">
                             <div class="project-text w-100 my-auto text-center text-lg-right">
-                                <h4 class="text-white">Lorem</h4>
+                                <h4 class="text-white">projet</h4>
                                 <p class="mb-0 text-white-50">Another example of a project with its respective description. These sections work well responsively as well, try this theme on a small screen!</p>
                                 <hr class="d-none d-lg-block mb-0 mr-0">
                             </div>

@@ -7,7 +7,7 @@
                 <div class="col-xs-12 col-sm-2 col-md-3">
                     <div class="widget subscribe no-box">
                         <a class="navbar-brand" href="{{ url('/') }}">
-                            <img src="/img/pddtLogo.png" style="height:rem; width:8 rem;" class="d-inline-block align-top" alt="">
+                            <img src="/img/pddtLogo.svg" style="height:rem; width:8 rem;" class="d-inline-block align-top" alt="">
                         </a>
                         <p style="color:black;">
                         <br/>

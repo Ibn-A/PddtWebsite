@@ -20,7 +20,7 @@
                 </div>
                 <div class="col-xl-4 col-lg-5">
                     <div class="featured-text text-center text-lg-left">
-                        <h4><a href="{{ url('/projets/1') }}"> projet </a></h4>
+                        <h4><a href="{{ url('/projet/1') }}">projet </a></h4>
                         <p class="text-black-50 mb-0">Haec igitur Epicuri non probo, inquam. De cetero vellem equidem aut ipse doctrinis fuisset instructior est enim, quod tibi ita videri necesse est.</p>
                     </div>
                 </div>

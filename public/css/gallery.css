@@ -34,3 +34,8 @@
       box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.15) !important;
     }
   }
+
+  .image {
+    width: 30vw;
+    height: 35vh;
+  }

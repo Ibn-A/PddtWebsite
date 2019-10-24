@@ -14,21 +14,21 @@
             </ol>
             <div class="carousel-inner" role="listbox">
                 <!-- Slide One - Set the background image for this slide in the line below -->
-                <div class="carousel-item active" style="background-image: url('http://placehold.it/1920x1080')">
+                <div class="carousel-item active" style="background-image: url('img/projet/eau.jpg')">
                     <div class="carousel-caption d-none d-md-block">
                         <h2 class="display-4"> L'Eau </h2>
                         <p class="lead">Un accès a l'eau potable pour tous</p>
                     </div>
                 </div>
                 <!-- Slide Two - Set the background image for this slide in the line below -->
-                <div class="carousel-item" style="background-image: url('http://placehold.it/1920x1080')">
+                <div class="carousel-item" style="background-image: url('img/projet/education.jpg')">
                     <div class="carousel-caption d-none d-md-block">
                         <h2 class="display-4">L'Education</h2>
                         <p class="lead">Une meilleur éducation pour un meilleur future</p>
                     </div>
                 </div>
                 <!-- Slide Three - Set the background image for this slide in the line below -->
-                <div class="carousel-item" style="background-image: url('http://placehold.it/1920x1080')">
+                <div class="carousel-item" style="background-image: url('img/projet/sante.jpg')">
                     <div class="carousel-caption d-none d-md-block">
                         <h2 class="display-4">La santé </h2>
                         <p class="lead">Un meilleur accès a la santé</p>
@@ -70,11 +70,11 @@
                 <div class="projet text-center justify-content-center">
                     <div class="box">
                         <div class="imgBx">
-                            <img src="http://placehold.it/275">
+                            <img src="{{ asset('img/projet/laitrine.jpg') }}">
                         </div>
                         <div class="content">
                             <div>
-                                <h2>Pour une eau plus accessible</h2>
+                                <h2>Construction de laitrine</h2>
                                 <p>
                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur pariatur 
                                 nesciunt adipisci quam molestiae quasi quibusdam accusamus ullam quod ex modi 
@@ -85,11 +85,11 @@
                     </div>
                     <div class="box">
                         <div class="imgBx">
-                            <img src="http://placehold.it/275">
+                            <img src="{{ asset('img/projet/lits.jpg') }}">
                         </div>
                         <div class="content">
                             <div>
-                                <h2>Education</h2>
+                                <h2>Remise de 20 lits</h2>
                                 <p>
                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur pariatur 
                                 nesciunt adipisci quam molestiae quasi quibusdam accusamus ullam quod ex modi 
@@ -100,11 +100,11 @@
                     </div>
                     <div class="box">
                         <div class="imgBx">
-                            <img src="http://placehold.it/275">
+                            <img src="{{ asset('img/projet/sensibilisation.jpg') }}">
                         </div>
                         <div class="content">
                             <div>
-                                <h2> Santé</h2>
+                                <h2>Sensibilisation</h2>
                                 <p>
                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur pariatur 
                                 nesciunt adipisci quam molestiae quasi quibusdam accusamus ullam quod ex modi 
@@ -115,7 +115,7 @@
                     </div>
                     <div class="box">
                         <div class="imgBx">
-                            <img src="http://placehold.it/275">
+                            <img src="{{ asset('img/projet/forage.jpg') }}">
                         </div>
                         <div class="content">
                             <div>

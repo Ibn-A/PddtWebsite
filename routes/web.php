@@ -37,17 +37,17 @@ Route::resource('/comments','CommentsController');
 Route::resource('/replies','RepliesController');
 Route::post('/replies/ajaxDelete','RepliesController@ajaxDelete');
 
-/* Route::get('/projets', function () {
-    return view('projets.liste');
+Route::get('/projet', function () {
+    return view('projets.new.liste');
 });
 
-Route::get('/projets/gallery/1', function () {
-    return view('projets.gallery');
+Route::get('/projet/gallery/1', function () {
+    return view('projets.new.gallery');
 });
 
-Route::get('/projets/1', function () {
-    return view('projets.projet');
-}); */
+Route::get('/projet/1', function () {
+    return view('projets.new.projet');
+});
 
 Route::get('/partenaires', function () {
     return view('partenaire');

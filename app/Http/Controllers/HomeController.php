@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\{Projet, Category, Comment};
 use Illuminate\Http\Request;
 
 class HomeController extends Controller
@@ -21,8 +22,10 @@ class HomeController extends Controller
      *
      * @return \Illuminate\Contracts\Support\Renderable
      */
-    public function index()
+    public function index($slug = null)
     {
-        return view('home');
+        $query = $slug ? Category::whereSlug($slug)->firstOrFail()->projets() : Projet::query();
+        $projets = $query->withTrashed()->oldest('title')->paginate(5);
+        return view('projets.index', compact('projets', 'slug'));
     }
 }
